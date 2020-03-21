@@ -14,6 +14,7 @@ html {
 
 .head_main_adapt, .h_main_adapt{
    display: none;
+    margin-botton: 50px;
 }
 .event img{
    width: 300px;
@@ -21,7 +22,7 @@ html {
     
 }
 .main_events{
-   margin: 50px 200px 0px 200px;
+   margin: 10px 200px 0px 200px;
 }
 .news{
    margin-right: 70px;
