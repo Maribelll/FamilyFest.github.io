@@ -66,8 +66,9 @@
    }
    @media all and (max-width: 600px){
     .c_main_adapt h1 {
-        font-size: 3em;
-        font-weight: 600;
+        font-size: 2.5em;
+        font-weight: 500;
+        top: 22%;
     }
     
 
@@ -80,9 +81,8 @@
     }
     
    }
-   @media all and (max-width: 400px){
-    .c_main_adapt h1 {
+   .c_main_adapt h1 {
         font-size: 2em;
+        top: 18%;
     }
-    
    }
