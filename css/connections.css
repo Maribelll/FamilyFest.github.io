@@ -7,12 +7,12 @@ body{
 }
 
 .con_main_adapt{
+ position: absolute;
  display: block;
+ top: 30%;
+ right: 5%;
 }
 .con_main_adapt h1{
-  position: absolute;
-  top: 45%;
-  right: 5%;
   font-weight: 200;
   font-size: 5em;
   color: white;
@@ -56,8 +56,6 @@ body{
           box-shadow: 10px 10px 10px rgba(117, 108, 108, 0.5);
   margin: 0 100px 60px;
 }
-
- 
 
 .Support h3{
     text-align: center;
@@ -111,9 +109,7 @@ span{
 
 
 @media all and (max-width: 1300px){
-  .con_main_adapt h1{
-    top: 40%;
-  }
+  
   .Support{
     -ms-grid-columns: 250px 250px 250px 250px;
     grid-template-columns: 250px 250px 250px 250px;
@@ -131,15 +127,14 @@ span{
 }
 
 @media all and (max-width: 1200px){ 
-
+  
   .con_main_adapt h1{
-    top: 38%;
+  
     font-size: 4em;
   }
 }
 @media all and (max-width: 1000px){ 
   .con_main_adapt h1{
-    top: 35%;
     font-size: 3.5em;
   }
  
@@ -169,17 +164,20 @@ span{
 @media all and (max-width: 900px){
 
   .con_main_adapt h1{
-    top: 30%;
     font-size: 3.3em;
     font-weight: 600;
-  }
-
+  
+}
 }
 @media all and (max-width: 800px){
   .con_main_adapt h1{
-    top: 28%;
-    font-size: 2.7em;
+    font-size: 3em;
   }
+  .con_main_adapt {
+    top: 25%;
+
+  }
+  
   .Support{
     -ms-grid-columns: 200px 200px;
     grid-template-columns: 200px 200px; 
@@ -204,19 +202,19 @@ span{
 @media all and (max-width: 600px){
 
   .con_main_adapt h1{
-    top: 20%;
     font-size: 2em;
   }  
-      
-    }
   
-
+    
+  }
 @media all and (max-width: 450px){
   .con_main_adapt h1{
-    top: 17%;
+   
     font-size: 1.5em;
   }  
-      
+  .con_main_adapt {
+    top: 17%;
+  }
     
   
   .Support{
@@ -245,3 +243,4 @@ span{
     margin: 30px 20px;
   }
 }
+
