@@ -12,10 +12,10 @@ body{
 
 .Img_main_adapt {
     position: absolute;
-    right: 10px;
+    left: 5%;
     top: 15%;
     color: white;
-    text-align: right;
+    text-align: left;
   
 }
 .Img_main_adapt h1{
