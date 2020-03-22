@@ -7,16 +7,16 @@
    font-weight: 400;
    font-size: 5em;
    color: white;
-   text-align: right;
+   text-align: left;
   
  }
  .f_main_adapt{
-    padding-top: 20px;
+   padding-top: 20px;
    text-align: right;
    position: absolute;
    display: block;
    top: 30%;
-   right: 5%;
+   left: 5%;
    
  }
  .f_main_adapt h3{
