@@ -10,7 +10,7 @@ body{
  position: absolute;
  display: block;
  top: 30%;
- right: 5%;
+ left: 5%;
 }
 .con_main_adapt h1{
   font-weight: 200;
