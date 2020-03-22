@@ -4,25 +4,23 @@
  }
  
  .f_main_adapt h1{
-   position: absolute;
    font-weight: 400;
    font-size: 5em;
-   top: 45%;
-   right: 5%;
    color: white;
    text-align: right;
   
  }
  .f_main_adapt{
+    padding-top: 20px;
+   text-align: right;
+   position: absolute;
    display: block;
+   top: 30%;
+   right: 5%;
    
  }
  .f_main_adapt h3{
-   position: absolute;
-   font-weight: 200;
-   font-size: 3em;
-   top: 77%;
-   right: 5%;
+   font-size: 3em; 
    color: white;
  }
 
@@ -149,17 +147,6 @@
        margin:0px;
     }
     @media all and (max-width: 1300px) and (min-width: 320px){
-      .f_main_adapt h1{
-         top: 35%;
-         right: 5%;
-         font-size: 4em;
-       }
-
-       .f_main_adapt h3{
-         top: 63%;
-         right: 5%;
-         font-size: 2.5em;
-       }
       
        .Blu h2{
           font-size: 1.5em;
@@ -175,36 +162,41 @@
     }
       }
       @media all and (max-width: 1200px){ 
+          
+         .f_main_adapt{
+           top: 20%;;
+           
+          }
        
          .f_main_adapt h1{
-           font-weight: 200;
-           font-size: 3.7em;
+           font-size: 3.5em;
           
          }
+         
+         .f_main_adapt h3{
+            font-size: 2em;
+           
+          }
         
          }
-         @media all and (max-width: 1000px){
+         @media all and (max-width: 1000px){ 
+       
             .f_main_adapt h1{
-               top: 29%;
-               font-size: 3em;
-             }
+              font-size: 2.5em;
              
-             .f_main_adapt h3{
-               top: 50%;
-               font-size: 2em;
+            }
+            
+            .f_main_adapt h3{
+               font-size: 1.5em;
+              
              }
-         }
+           
+            }
             
       @media all and (max-width: 800px){
-         .f_main_adapt h1{
+        
+          .f_main_adapt{
             top: 20%;
-            font-size: 2.5em;
-          }
-          
-          .f_main_adapt h3{
-            top: 40%;
-            right: 5%;
-            font-size: 2em;
           }
 
          .fadein {
@@ -253,14 +245,12 @@
       @media all and (max-width: 600px){
            
          .f_main_adapt h1{
-            top: 17%;
-            font-size: 2.1em;
+            font-size: 1.8em;
           }
-          
-          .f_main_adapt h3{
-            top: 35%;
-            font-size: 1.7em;
+          .f_main_adapt {
+             top: 12%;;
           }
+      
              
                 
        .Wanted{
@@ -327,24 +317,23 @@
    @media all and (max-width: 450px){
 
      .f_main_adapt h1{
-            top: 13%;
-            font-size: 1.8em;
-            font-weight: 600;
+            font-size: 1.5em;
+            font-weight: 500;
           }
           
           .f_main_adapt h3{
-            top: 30%;
             font-size: 1.2em;
           }
       }
    @media all and (max-width: 400px) and (min-width: 320px){
+      .f_main_adapt {
+         top: 10%;
+       }
       .f_main_adapt h1{
-         top: 15%;
          font-size: 1.5em;
        }
        
        .f_main_adapt h3{
-         top: 28%;
          font-size: 1em;
        }
     
