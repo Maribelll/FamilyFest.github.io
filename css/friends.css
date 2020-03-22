@@ -241,18 +241,15 @@
         }
       }  
      
-   
-      @media all and (max-width: 600px){
+   @media all and (max-width: 600px){
            
          .f_main_adapt h1{
             font-size: 1.8em;
           }
           .f_main_adapt {
-             top: 12%;;
+             top: 14%;;
           }
-      
-             
-                
+           
        .Wanted{
           -webkit-box-orient: vertical;
           -webkit-box-direction: normal;
@@ -327,7 +324,7 @@
       }
    @media all and (max-width: 400px) and (min-width: 320px){
       .f_main_adapt {
-         top: 10%;
+         top: 15%;
        }
       .f_main_adapt h1{
          font-size: 1.5em;
@@ -352,3 +349,6 @@
         height: 770px;
       }
    }
+
+   
+   
